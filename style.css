@@ -1,0 +1,149 @@
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("bg-pattern-top.svg");
+    background-image: url("bg-pattern-bottom.svg");
+    /*background-position-x: left;*/
+    
+    
+}
+
+.hub {
+    display:block;
+    background: url("bg-pattern-card.svg") repeat-x top, white;
+    max-width: 340px;
+    max-height:384px;
+    margin-top:200px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    
+   }
+
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    }
+
+.name {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    position: relative;
+    top: 208px;
+    left: 110px;
+}
+
+.victor {
+    border-radius: 60px;
+    border: 5px white solid;
+    position: relative;
+    bottom: 257px; 
+    left: 120px;
+}
+
+.num {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    color: hsl(0, 0%, 59%);
+    position: relative;
+    top: 167px;
+    left: 220px;
+    font-weight: 500;
+}
+
+.pays {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 0.875rem;
+    color: hsl(0, 0%, 59%);
+    position: relative;
+    top: 155px;
+    left: 148px;
+}
+
+hr {
+    font-family: 'Kumbh Sans', sans-serif;
+    border: 0.01px hsl(0, 0%, 59%) solid;
+    opacity: 0.15;
+    position: relative;
+    top: 170px;
+}
+
+.key {
+    font-family: 'Kumbh Sans', sans-serif;
+    letter-spacing : 1.5px;
+    font-size: 0.656rem;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    position: relative;
+    top: 170px;
+    left: 49px;
+}
+
+.key2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    letter-spacing : 1.5px;
+    font-size: 0.656rem;
+    font-weight: 400;
+    color:hsl(227, 10%, 46%);
+    position: relative;
+    left: 158px;
+    top: 98px;
+}
+
+.key3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    letter-spacing : 1.5px;
+    font-size: 0.656rem;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    position: relative;
+    top: 26px;
+    left: 246px;
+}
+
+.follow {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    position: relative;
+    top: 185px;
+    left: 60px;
+}
+
+.li {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+   position: relative;
+   top: 113px;
+   left: 152px;
+   }
+
+.foto {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    position: relative;
+    top: 41px;
+    left: 248px;
+}
+
+@media screen and (max-width: 375px)
+{
+   
+}
+
+@media screen and (max-width: 1440px)
+{
+    /* Rédigez vos propriétés CSS ici*/
+}
+
+
+
+
