@@ -27,7 +27,7 @@ img {
 }
 
 header {
-    margin:auto;
+    margin:auto; /*To the middle*/
 }
 
 .nomnum {
@@ -55,13 +55,13 @@ header {
     font-size: 1rem;
 }
 
-
+/*Manage white space for a symmetrical view between differents elements*/
 .suiveur {
     font-weight: 700;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    white-space: pre-line;
+    white-space: pre-line; 
     text-align: center;
     margin: 10px;
     
@@ -136,7 +136,7 @@ hr {
     letter-spacing: 2px;
 }
 
-
+/*I try to manage web responsive but I'm learning and I'm not finish.*/
 
 @media (max-width: 390px) {
     .card { 
