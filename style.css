@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('bg-pattern-top.svg') fixed no-repeat bottom 400px right 950px, url('bg-pattern-bottom.svg') fixed no-repeat 900px 500px, hsl(185, 75%, 39%);
+    background: url('bg-pattern-top.svg') fixed no-repeat bottom 400px right 1015px, url('bg-pattern-bottom.svg') fixed no-repeat 900px 410px, hsl(185, 75%, 39%);
     font-family: "Kumbh Sans", "sans-serif";
 }
 
@@ -11,13 +11,14 @@ body {
 .card {
     max-width: 17%;
     margin: auto;
-    margin-top:300px;
+    margin-top:200px;
     display: flex;
     flex-direction: column;
     padding: 2px;
     gap: 5px;
     background: url('bg-pattern-card.svg') repeat-x top, white;
     border-radius: 15px;
+    box-shadow: 10px 10px 10px hsl(185, 75%, 39%);
 }
 
 img {
